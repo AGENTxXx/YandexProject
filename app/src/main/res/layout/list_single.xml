@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:id="@+id/imageCover"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft = "15dp"
+        android:layout_marginTop = "15dp"
+        android:src="@drawable/stub_image"
+        android:minHeight="100dp"
+        android:minWidth="100dp"
+        android:maxHeight="100dp"
+        android:maxWidth="100dp"
+        android:nestedScrollingEnabled="true"
+        android:paddingRight="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/nameTv"
+        android:layout_alignTop="@+id/imageCover"
+        android:layout_toRightOf="@+id/imageCover"
+        android:layout_toEndOf="@+id/imageCover"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/ganreTv"
+        android:layout_below="@+id/nameTv"
+        android:layout_toRightOf="@+id/imageCover"
+        android:layout_toEndOf="@+id/imageCover"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/artCountTv"
+        android:layout_alignBottom="@+id/imageCover"
+        android:layout_toRightOf="@+id/imageCover"
+        android:layout_toEndOf="@+id/imageCover"
+        android:layout_marginBottom="10dp" />
+</RelativeLayout>

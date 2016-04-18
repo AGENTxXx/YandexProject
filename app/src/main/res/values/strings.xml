@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Artists of Music</string>
+    <string name="main_name_activity">Исполнители</string>
+    <string name="offline_mode">Исполнители (Автономный режим)</string>
+    <string name="connect_error">Не удаётся подключиться к сети. Проверьте интернет соединение!</string>
+    <string name="date_upload">Загрузка обновлённых данных…</string>
+    <string name="request_error">Ошибка ответа сервера. Повторите попытку позже!</string>
+
+</resources>
